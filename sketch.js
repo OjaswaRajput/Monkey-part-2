@@ -22,7 +22,7 @@ function preload(){
   //hangI = loadImage("sprite_01.png");
 }
 function setup() {
-  createCanvas(600, 280);
+  createCanvas(windowWidth, windowHeight);
   
   invg=createSprite(200,265,400,5);
   
